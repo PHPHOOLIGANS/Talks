@@ -6,57 +6,102 @@
 	<title>PHPHOOLIGANS</title>
 	<link rel="stylesheet" href="../fonts/OpenDyslexicAlta/OpenDyslexicAlta.css" />
 	<style>
-		.block {
-			width: 320px;
-			height: 150px;
-			margin: 20px;
-			background-color: #FFFFCC;
-			border-radius: 5px;
-			box-shadow: 2px 2px 5px #CCC;
-			float: left;
-			padding: 50px 10px;
-			font-size: 35px;
-			text-align: center;
-			font-family: 'opendyslexicaltaregular';
+		article {
+			position: absolute;
+
+			width: 96.5em;
+			left: -48.25em;
+			margin-left: 50%;
+
+			height: 52em;
+			top: 50%;
+			margin-top: -26em;
 		}
+
+		.block {
+			width: 8em;
+			height: 7em;
+			position: relative;
+			margin: 0.5em;
+			background-color: #FFC;
+			border-radius: 0.1em;
+			box-shadow: 0.1em 0.1em 0.25em #CCC;
+			float: left;
+			font-size: 2.15em;
+			text-align: center;
+			font-family: 'opendyslexicaltaregular',sans-serif;
+
+			display: table;
+			overflow: hidden;
+			padding: 0 1em;
+		}
+
+			.block > span {
+				display: table-cell;
+				vertical-align: middle;
+				width: 100%;
+				margin: 0 auto;
+				text-align: center;
+			}
 
 		footer {
 			position: absolute;
-			bottom: 0;
-			right: 0;
+			bottom: 1em;
+			right: 1em;
 			font-family: "arial", sans-serif;
 			font-size: 75%;
 			color: rgb(125,125,125);
 		}
 
-		footer a {
-			color: rgb(25,25,25);
-		}
-
+			footer a {
+				color: rgb(25,25,25);
+			}
 	</style>
 </head>
 <body>
 
-	<div class="block">Fuzzy type comparisons rule!</div>
+	<article>
+		<div class="block">
+			<span>Fuzzy type comparisons rule!</span>
+		</div>
 
-	<div class="block">Avoid inheritance like the plague!</div>
+		<div class="block">
+			<span>Avoid inheritance like the plague!</span>
+		</div>
 
-	<div class="block">URL routing sucks</div>
+		<div class="block">
+			<span>URL routing sucks</span>
+		</div>
 
-	<div class="block">Code less - test more</div>
+		<div class="block">
+			<span>Code less - test more</span>
+		</div>
 
-	<div class="block">Magic methods rule!</div>
+		<div class="block">
+			<span>Magic methods rule!</span>
+		</div>
 
-	<div class="block">Design Patterns are a code smell</div>
-	
-	<div class="block"><em>THAT</em> is not OOP</div>
-	
-	<div class="block">Strong typing is for weak programmers</div>
-	
-	<div class="block">PHP is the <u>only</u> framework</div>
-	
-	<div class="block">Object to Objects</div>
-	
+		<div class="block">
+			<span>Design Patterns are a code smell</span>
+		</div>
+
+		<div class="block">
+			<span><em>THAT</em> is not OOP</span>
+		</div>
+
+		<div class="block">
+			<span>Strong typing is for weak programmers</span>
+		</div>
+
+		<div class="block">
+			<span>PHP is the <strong>only</strong> framework</span>
+		</div>
+
+		<div class="block">
+			<span>Object to Objects</span>
+		</div>
+	</article>
+
 	<footer>
 		Uses OpenDyslexic, available at <a href="http://dyslexicfonts.com/">http://dyslexicfonts.com</a>
 	</footer>
