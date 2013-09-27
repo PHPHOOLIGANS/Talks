@@ -44,7 +44,8 @@ would have to be build up out of several views. Example:
 ![A view is part of a screen](balsamiq-view-versus-screen.png "view versus screen")
 
 You can easily see how this goes wrong when an application is not able to return 
-only part of any screen (or page) as, for instance, a JSON object.
+only part of any screen (or page) as, for instance, a JSON object instead of 
+HTML. 
 
 
 sources:
